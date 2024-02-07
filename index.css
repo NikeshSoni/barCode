@@ -1,0 +1,68 @@
+
+
+
+ body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: aquamarine;
+ }
+
+ #mainWapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+ }
+
+ .container{
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 20px;
+    text-align: center;
+
+    @media (max-width:991px) {
+        width: 70%;
+    }
+
+    @media (max-width:600px) {
+        width: 80%;
+    }
+ }
+
+
+ input{
+    padding:15px;
+    width: 60%;
+    border-radius: 10px;
+    border: 1px solid #000;
+    outline: none;
+    margin-bottom: 15px;
+ }
+
+ button{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid#000;
+    cursor: pointer;
+ }
+
+ .outPut{
+    height: 150px;
+    display: none;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    border-radius: 10px;
+ }
+
+ .barHeight{
+    display: block;
+    overflow: hidden;
+    padding: 5px;
+    text-align: center;
+ }
+
